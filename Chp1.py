@@ -1,24 +1,31 @@
-import numpy as np
-import pandas as pd
+#  Description: This file contains the code for the first chapter of the book
+#  "Neural Networks from Scratch in Python" by Harrison Kinsley and Daniel Kukiela
+#  The code is written by following the book and is for educational purposes only
+
+
+import numpy as np # Import numpy library
+import pandas as pd # Import pandas library
 inputs = [[1, 2, 3, 2.5],
           [2.0, 5.0, -1.0, 2.0],
-          [-1.5, 2.7, 3.3, -0.8]]
+          [-1.5, 2.7, 3.3, -0.8]] # Input data
 
 
 
 
-
+# Weights and biases for the first layer
 weights = [[0.2, 0.8, -0.5, 1.0],
             [0.5, -0.91, 0.26, -0.5],
             [-0.26, -0.27, 0.17, 0.87]]
 
+# Biases for the first layer
 biases = [2, 3, 0.5]
 
-
+# Weights and biases for the second layer
 weights2 = [[0.1, -0.14, 0.5],
             [-0.5, 0.12, -0.33],
             [-0.44, 0.73, -0.13]]
 
+# Biases for the second layer
 biases2 = [-1, 2, -0.5]
 
 
